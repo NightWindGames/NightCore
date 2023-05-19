@@ -1,0 +1,64 @@
+
+body
+{
+
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : large;
+
+    color : white;
+    background-color : black;
+
+}
+
+h1
+{
+
+    color : red
+
+}
+
+
+.btn 
+{
+
+    background-color : rgb(44, 44, 44);
+    background-image : url(/resources/icons/download-icon.png);
+    background-position : 4px center;
+    background-size : 34px;
+    background-repeat : no-repeat;
+    color : white;
+    font-size : 22px;
+    padding : 10px 42px;
+    cursor : pointer;
+
+}
+.btn:hover
+{
+
+    background-color : rgb( 62, 62, 62 );
+
+}
+/* .btn:after
+{
+
+    content: "";
+    background: cyan;
+    display: block;
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 30%;
+    margin-left: -8.5%!important;
+    margin-top: -8.5%;
+    opacity: 0;
+    transition: all 0.6s
+
+}
+.btn:active:after
+{
+
+    padding: 0;
+    margin: 0;
+    opacity: 10;
+    transition: 0s
+
+} */
